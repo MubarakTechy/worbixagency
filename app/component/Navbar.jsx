@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Services', href: '#services' },
-    { name: '', href: '#how-it-works' },
+
     { name: 'Why Worbix', href: '#Why' },
     { name: 'Testimonials', href: '#Testimonials' },
     { name: 'Contact', href: '#Contact' },
@@ -63,7 +63,7 @@ const Navbar = () => {
               </Link>
             ))}
             <Link
-              href="#contact"
+              href="/Quote"
               className="ml-4 bg-gradient-to-r from-[#38BDF8] to-[#818CF8] text-white px-6 py-2.5 rounded-full hover:from-[#0EA5E9] hover:to-[#6366F1] transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25 font-medium text-sm"
             >
               Get a Free Mockup
@@ -129,7 +129,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Link
-            href="#contact"
+            href="/Quote"
             onClick={() => setIsOpen(false)}
             className={`block w-full text-center bg-gradient-to-r from-[#38BDF8] to-[#818CF8] text-white px-4 py-3.5 rounded-xl hover:from-[#0EA5E9] hover:to-[#6366F1] transition-all duration-300 font-medium mt-6 shadow-lg shadow-blue-500/20 transform hover:scale-[1.02] ${
               isOpen ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0'

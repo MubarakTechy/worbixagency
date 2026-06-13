@@ -39,7 +39,7 @@ export default function Hero() {
         {/* CTA */}
         <div className="flex flex-col justify-center gap-3 pt-4 sm:flex-row md:pt-6">
           <Link
-            href="#contact"
+            href="/Quote"
             className="bg-gradient-to-r from-[#38BDF8] to-[#818CF8] hover:from-[#0EA5E9] hover:to-[#6366F1] text-white font-semibold text-sm px-8 py-3.5 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25 w-full sm:w-auto text-center"
           >
             Get a Free Mockup →

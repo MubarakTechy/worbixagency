@@ -70,7 +70,7 @@ const FAQ = () => {
       {
         question: "How much does a website cost?",
         answer:
-          "Our projects typically range from $2,000 to $8,000 depending on complexity, number of pages, and features needed. We provide transparent, upfront pricing with no hidden fees. Every project starts with a free consultation and mockup so you know exactly what you're getting.",
+          "Depending on the type of website and features, our prices typically range from $500 for a simple landing page to $5,000 for a full e-commerce site. We provide a free mockup and detailed quote before you commit, so you know exactly what to expect.",
       },
       {
         question: "Do you offer payment plans?",
@@ -115,7 +115,8 @@ const FAQ = () => {
   return (
   <>
   <Navbar />
-    <section className="relative bg-[#0F1D32] py-16 md:py-24 overflow-hidden">
+
+    <section className="relative bg-[#0F1D32] pt-16 pb-24 overflow-hidden">
       {/* Background gradient orbs */}
       <div className="absolute top-20 right-10 w-72 h-72 bg-[#38BDF8]/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-20 left-10 w-96 h-96 bg-[#818CF8]/10 rounded-full blur-3xl pointer-events-none" />
