@@ -169,12 +169,12 @@ const Quote = () => {
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="relative text-center max-w-lg mx-auto"
+            className="relative max-w-lg mx-auto text-center"
           >
             <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[#38BDF8] to-[#818CF8] flex items-center justify-center mx-auto mb-8 shadow-lg shadow-[#38BDF8]/25">
               <FiCheckCircle className="w-12 h-12 text-white" />
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">
               Quote Request Sent!
             </h2>
             <p className="text-[#94A3B8] text-lg mb-8">
@@ -215,7 +215,7 @@ const Quote = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-center mb-12"
+              className="mb-12 text-center"
             >
               <div className="inline-flex items-center gap-2 bg-[#1A2942] border border-[#1E3A5F] rounded-full px-4 py-1.5 mb-6">
                 <FiZap className="w-4 h-4 text-[#38BDF8]" />
@@ -224,7 +224,7 @@ const Quote = () => {
                 </span>
               </div>
 
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight">
+              <h1 className="mb-4 text-3xl font-bold leading-tight text-white md:text-4xl lg:text-5xl">
                 Let's{" "}
                 <span className="bg-gradient-to-r from-[#38BDF8] to-[#818CF8] bg-clip-text text-transparent">
                   build your project
@@ -292,10 +292,10 @@ const Quote = () => {
                       transition={{ duration: 0.3 }}
                       className="p-6 md:p-8"
                     >
-                      <h3 className="text-xl font-semibold text-white mb-6">
+                      <h3 className="mb-6 text-xl font-semibold text-white">
                         What type of project do you need?
                       </h3>
-                      <div className="grid sm:grid-cols-2 gap-4 mb-8">
+                      <div className="grid gap-4 mb-8 sm:grid-cols-2">
                         {projectTypes.map((type) => (
                           <button
                             key={type.id}
@@ -312,7 +312,7 @@ const Quote = () => {
                                 <type.icon className={`w-5 h-5 ${formData.projectType === type.id ? "text-[#38BDF8]" : "text-[#64748B] group-hover:text-[#38BDF8]"}`} />
                               </div>
                               <div className="flex-1">
-                                <h4 className="text-white font-semibold text-sm mb-1">{type.title}</h4>
+                                <h4 className="mb-1 text-sm font-semibold text-white">{type.title}</h4>
                                 <p className="text-[#94A3B8] text-xs mb-2">{type.description}</p>
                                 <div className="flex items-center gap-3 text-xs">
                                   <span className="flex items-center gap-1 text-[#38BDF8]">
@@ -340,12 +340,12 @@ const Quote = () => {
                       transition={{ duration: 0.3 }}
                       className="p-6 md:p-8"
                     >
-                      <h3 className="text-xl font-semibold text-white mb-2">
+                      <h3 className="mb-2 text-xl font-semibold text-white">
                         What features do you need?
                       </h3>
                       <p className="text-[#94A3B8] text-sm mb-6">Select all that apply</p>
 
-                      <div className="grid sm:grid-cols-2 gap-3 mb-8">
+                      <div className="grid gap-3 mb-8 sm:grid-cols-2">
                         {features.map((feature) => (
                           <button
                             key={feature.id}
@@ -358,7 +358,7 @@ const Quote = () => {
                             }`}
                           >
                             <feature.icon className={`w-5 h-5 ${formData.features.includes(feature.id) ? "text-[#38BDF8]" : "text-[#64748B]"}`} />
-                            <span className="text-white text-sm">{feature.label}</span>
+                            <span className="text-sm text-white">{feature.label}</span>
                             {formData.features.includes(feature.id) && (
                               <FiCheck className="w-4 h-4 text-[#38BDF8] ml-auto" />
                             )}
@@ -390,10 +390,10 @@ const Quote = () => {
                       transition={{ duration: 0.3 }}
                       className="p-6 md:p-8"
                     >
-                      <h3 className="text-xl font-semibold text-white mb-2">Your Details</h3>
+                      <h3 className="mb-2 text-xl font-semibold text-white">Your Details</h3>
                       <p className="text-[#94A3B8] text-sm mb-6">We'll send your custom quote to this email</p>
 
-                      <div className="grid sm:grid-cols-2 gap-4 mb-6">
+                      <div className="grid gap-4 mb-6 sm:grid-cols-2">
                         <div>
                           <label htmlFor="name" className={labelClasses}>Full Name *</label>
                           <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} placeholder="" required className={inputClasses} />
@@ -404,18 +404,18 @@ const Quote = () => {
                         </div>
                       </div>
 
-                      <div className="grid sm:grid-cols-2 gap-4 mb-6">
+                      <div className="grid gap-4 mb-6 sm:grid-cols-2">
                         <div>
                           <label htmlFor="phone" className={labelClasses}>Phone Number</label>
                           <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} placeholder="" className={inputClasses} />
                         </div>
                         <div>
-                          <label htmlFor="company" className={labelClasses}>Company Name</label>
+                          <label htmlFor="company" className={labelClasses}>Business  Name</label>
                           <input type="text" id="company" name="company" value={formData.company} onChange={handleChange} placeholder="" className={inputClasses} />
                         </div>
                       </div>
 
-                      <div className="grid sm:grid-cols-2 gap-4 mb-6">
+                      <div className="grid gap-4 mb-6 sm:grid-cols-2">
                         <div>
                           <label htmlFor="budget" className={labelClasses}>Budget Range *</label>
                           <select id="budget" name="budget" value={formData.budget} onChange={handleChange} required className={inputClasses}>
@@ -447,7 +447,7 @@ const Quote = () => {
 
                       {/* ✅ Error message — shows if backend is down or something fails */}
                       {error && (
-                        <p className="text-red-400 text-sm bg-red-400/10 border border-red-400/20 rounded-xl px-4 py-3 mb-4">
+                        <p className="px-4 py-3 mb-4 text-sm text-red-400 border bg-red-400/10 border-red-400/20 rounded-xl">
                           {error}
                         </p>
                       )}
