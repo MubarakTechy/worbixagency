@@ -522,3 +522,80 @@ const Quote = () => {
 };
 
 export default Quote;
+
+
+
+
+
+
+
+//          )}
+//                 </AnimatePresence>
+
+//                 {/* Navigation buttons */}
+//                 <div className="border-t border-[#1E3A5F] px-6 md:px-8 py-4 flex items-center justify-between">
+//                   {step > 1 ? (
+//                     <button
+//                       type="button"
+//                       onClick={prevStep}
+//                       className="flex items-center gap-2 px-6 py-2.5 rounded-xl border border-[#1E3A5F] text-[#94A3B8] hover:text-white hover:border-[#38BDF8]/50 transition-all duration-200 text-sm font-medium"
+//                     >
+//                       <FiArrowLeft className="w-4 h-4" />
+//                       Back
+//                     </button>
+//                   ) : (
+//                     <div />
+//                   )}
+
+//                   {step < totalSteps ? (
+//                     <button
+//                       type="button"
+//                       onClick={nextStep}
+//                       className="flex items-center gap-2 px-6 py-2.5 rounded-xl font-semibold text-sm text-white bg-gradient-to-r from-[#38BDF8] to-[#818CF8] hover:from-[#0EA5E9] hover:to-[#6366F1] transition-all duration-300"
+//                     >
+//                       Continue
+//                       <FiArrowRight className="w-4 h-4" />
+//                     </button>
+//                   ) : (
+//                     <button
+//                       type="submit"
+//                       disabled={isLoading}
+//                       className="flex items-center gap-2 px-8 py-3 rounded-xl font-semibold text-sm text-white bg-gradient-to-r from-[#38BDF8] to-[#818CF8] hover:from-[#0EA5E9] hover:to-[#6366F1] hover:shadow-lg hover:shadow-[#38BDF8]/25 transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed"
+//                     >
+//                       <FiSend className="w-5 h-5" />
+//                       {isLoading ? "Sending..." : "Submit Request"}
+//                     </button>
+//                   )}
+//                 </div>
+//               </form>
+//             </motion.div>
+
+//             <motion.div
+//               initial={{ opacity: 0 }}
+//               animate={{ opacity: 1 }}
+//               transition={{ duration: 0.6, delay: 0.5 }}
+//               className="mt-8 flex flex-wrap items-center justify-center gap-6 text-sm text-[#64748B]"
+//             >
+//               <div className="flex items-center gap-2">
+//                 <FiClock className="w-4 h-4 text-[#38BDF8]" />
+//                 <span>Response within 24 hours</span>
+//               </div>
+//               <div className="flex items-center gap-2">
+//                 <FiCheck className="w-4 h-4 text-[#38BDF8]" />
+//                 <span>No commitment required</span>
+//               </div>
+//               <div className="flex items-center gap-2">
+//                 <FiSend className="w-4 h-4 text-[#38BDF8]" />
+//                 <span>Free custom quote</span>
+//               </div>
+//             </motion.div>
+//           </div>
+//         </section>
+//       )}
+      
+//       <Footer />
+//     </>
+//   );
+// };
+
+// export default Quote;
