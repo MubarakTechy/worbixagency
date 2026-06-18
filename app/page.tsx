@@ -11,10 +11,7 @@ const page = () => {
   return (
     <div>
       <Navbar />
-
       <Home />
-     
-
     </div>
   )
 }

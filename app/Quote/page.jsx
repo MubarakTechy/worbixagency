@@ -178,7 +178,7 @@ const Quote = () => {
               Quote Request Sent!
             </h2>
             <p className="text-[#94A3B8] text-lg mb-8">
-              We'll review your project and send you a custom quote within 24 hours. 
+              We&rsquo;ll review your project and send you a custom quote within 24 hours. 
               Check your email for a confirmation.
             </p>
             <button
@@ -225,13 +225,13 @@ const Quote = () => {
               </div>
 
               <h1 className="mb-4 text-3xl font-bold leading-tight text-white md:text-4xl lg:text-5xl">
-                Let's{" "}
+                Let&rsquo;s{" "}
                 <span className="bg-gradient-to-r from-[#38BDF8] to-[#818CF8] bg-clip-text text-transparent">
                   build your project
                 </span>
               </h1>
               <p className="text-[#94A3B8] text-base md:text-lg max-w-2xl mx-auto">
-                Tell us about your project and we'll send you a custom quote within 24 hours. 
+                Tell us about your project and we&rsquo;ll send you a custom quote within 24 hours. 
                 No commitment required.
               </p>
             </motion.div>
@@ -391,7 +391,7 @@ const Quote = () => {
                       className="p-6 md:p-8"
                     >
                       <h3 className="mb-2 text-xl font-semibold text-white">Your Details</h3>
-                      <p className="text-[#94A3B8] text-sm mb-6">We'll send your custom quote to this email</p>
+                      <p className="text-[#94A3B8] text-sm mb-6">We&rsquo;ll send your custom quote to this email</p>
 
                       <div className="grid gap-4 mb-6 sm:grid-cols-2">
                         <div>

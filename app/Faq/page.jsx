@@ -161,7 +161,7 @@ const FAQ = () => {
               </span>
             </h2>
             <p className="text-[#94A3B8] text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
-              We know you have questions  and probably a few concerns too. Here's everything you need to feel confident about working with Worbix.
+              We know you have questions  and probably a few concerns too. Here&rsquo;s everything you need to feel confident about working with Worbix.
             </p>
           </motion.div>
 

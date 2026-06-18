@@ -96,7 +96,7 @@ const PrivacyPolicy = () => {
             </h1>
 
             <p className="text-[#94A3B8] text-base sm:text-lg max-w-2xl mx-auto">
-              This page explains what information Worbix collects, why, and how it's
+              This page explains what information Worbix collects, why, and how it&rsquo;s
               handled. We keep things simple — we only collect what you give us.
             </p>
 
@@ -145,7 +145,7 @@ const PrivacyPolicy = () => {
             <p className="text-sm md:text-base">
               This policy may be updated as Worbix grows and adds new features to
               this site. Any changes will be reflected on this page with a new
-              "last updated" date.
+              &rsquo;last updated&rsquo; date.
             </p>
           </motion.div>
         </div>

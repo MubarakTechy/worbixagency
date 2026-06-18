@@ -47,7 +47,7 @@ export default function Hero() {
               <span className="bg-gradient-to-r from-[#38BDF8] to-[#818CF8] bg-clip-text text-transparent">
                 Business Looks Unprofessional Online
               </span>{" "}
-              and Isn't Generating Enough Leads?
+              and Isn&rsquo;t Generating Enough Leads?
             </h1>
 
                 <p className="text-[#ffff] text-[6px] italic sm:text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
