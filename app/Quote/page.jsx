@@ -72,7 +72,7 @@ const Quote = () => {
         setIsSubmitted(true);
         window.scrollTo({ top: 0, behavior: "smooth" });
       } else {
-        setError("Something went wrong. Please try again.");
+        setError("");
       }
     } catch (err) {
       // This fires if the backend server isn't running

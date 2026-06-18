@@ -26,7 +26,7 @@ const Footer = () => {
     support: [
       { name: "Contact", href: "#contact" },
       { name: "FAQ", href: "/Faq" },
-      { name: "Privacy Policy", href: "#privacy" },
+      { name: "Privacy Policy", href: "/privacy" },
       { name: "Terms of Service", href: "#terms" },
     ],
   };
@@ -170,7 +170,7 @@ const Footer = () => {
             
             <div className="flex items-center gap-6">
               <Link
-                href="#privacy"
+                href="/privacy"
                 className="text-xs text-[#64748B] hover:text-[#38BDF8] transition-colors"
               >
                 Privacy Policy
