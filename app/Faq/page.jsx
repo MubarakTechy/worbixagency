@@ -305,3 +305,58 @@ const FAQ = () => {
 };
 
 export default FAQ;
+
+
+
+//              </div>
+//                     </motion.div>
+//                   )}
+//                 </AnimatePresence>
+//               </motion.div>
+//             ))}
+//           </motion.div>
+
+//           {/* Bottom CTA - Following "rough awesome format" Point 4: Take Action */}
+//           <motion.div
+//             initial={{ opacity: 0, y: 20 }}
+//             whileInView={{ opacity: 1, y: 0 }}
+//             viewport={{ once: true }}
+//             transition={{ duration: 0.6, delay: 0.4 }}
+//             className="mt-12 text-center md:mt-16"
+//           >
+//             <div className="bg-[#1A2942] border border-[#1E3A5F] rounded-2xl p-8 md:p-10 max-w-2xl mx-auto">
+//               <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#38BDF8]/10 to-[#818CF8]/10 flex items-center justify-center mx-auto mb-4 border border-[#38BDF8]/20">
+//                 <FiMessageSquare className="w-6 h-6 text-[#38BDF8]" />
+//               </div>
+//               <h3 className="mb-3 text-xl font-bold text-white md:text-2xl">
+//                 Ready to See What We Can Do for You?
+//               </h3>
+//               <p className="text-[#94A3B8] text-sm md:text-base mb-6 max-w-md mx-auto">
+//                 Get your free custom mockup today. No commitment, no pressure just a preview of your future online presence.
+//               </p>
+//               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+//                 <Link
+//                   href="/Contact"
+//                   className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-semibold text-sm text-white bg-gradient-to-r from-[#38BDF8] to-[#818CF8] hover:from-[#0EA5E9] hover:to-[#6366F1] hover:shadow-lg hover:shadow-[#38BDF8]/25 transition-all duration-300"
+//                 >
+//                   Get Your Free Mockup
+//                   <FiArrowRight className="w-5 h-5" />
+//                 </Link>
+//                 {/* <Link
+//                   href="/portfolio"
+//                   className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-semibold text-sm text-[#38BDF8] border border-[#38BDF8]/30 hover:bg-[#38BDF8]/10 transition-all duration-300"
+//                 >
+//                   See Our Work
+//                   <FiArrowRight className="w-5 h-5" />
+//                 </Link> */}
+//               </div>
+//             </div>
+//           </motion.div>
+//         </div>
+//       </section>
+//       <Footer />
+//     </>
+//   );
+// };
+
+// export default FAQ;
