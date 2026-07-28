@@ -2,6 +2,9 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import max from "../images/bgremove.png";
+
 import { FiMail, FiPhone, FiMapPin, FiArrowUpRight, FiGithub, FiTwitter, FiLinkedin, FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
@@ -50,11 +53,16 @@ const Footer = () => {
             {/* Brand column */}
             <div className="lg:col-span-2">
               <Link href="/" className="inline-block mb-6">
-                <h2 className="text-2xl font-bold">
-                  <span className="bg-gradient-to-r from-[#38BDF8] to-[#818CF8] bg-clip-text text-transparent">
-                    Worbix
-                  </span>
-                </h2>
+                
+                  <Image
+                      src={max}
+                      alt=""
+                      width={150}
+                      height={50}
+                      className="inline-block mr-2"
+                    />
+          
+              
               </Link>
               
               <p className="text-[#94A3B8] text-sm leading-relaxed mb-6 max-w-md">

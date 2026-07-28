@@ -4,7 +4,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import max from "../images/logo.png"
+import max from "../images/bgremove.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -43,8 +43,8 @@ const Navbar = () => {
                 src={max}
                 alt="Worbix"
                 fill
-                className="object-contain"
-                sizes="(max-width: 768px) 180px, 200px"
+                className="object-contain h-full w-full"
+                sizes="(max-width: 768px) 280px, 300px"
                 priority
               />
             </div>

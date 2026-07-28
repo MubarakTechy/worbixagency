@@ -133,7 +133,7 @@ const Contact = () => {
               Message Sent Successfully!
             </h2>
             <p className="text-[#94A3B8] text-lg mb-8">
-              Thank you for reaching out! We'll review your message and get back to you within 24 hours.
+              Thank you for reaching out! We&rsquo;ll review your message and get back to you within 24 hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
@@ -176,7 +176,7 @@ const Contact = () => {
               </div>
 
               <h1 className="mb-4 text-3xl font-bold leading-snug tracking-tight text-white sm:text-4xl md:text-5xl md:leading-tight">
-                Let's{" "}
+                Let&rsquo;s{" "}
                 <span className="bg-gradient-to-r from-[#38BDF8] to-[#818CF8] bg-clip-text text-transparent">
                   build something
                 </span>{" "}
@@ -184,8 +184,8 @@ const Contact = () => {
               </h1>
               
               <p className="text-[#94A3B8] text-base sm:text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto">
-                Have a project in mind? We'd love to hear about it. Send us a
-                message and we'll get back to you within 24 hours.
+                Have a project in mind? We&rsquo;d love to hear about it. Send us a
+                message and we&rsquo;ll get back to you within 24 hours.
               </p>
             </motion.div>
 
@@ -294,7 +294,7 @@ const Contact = () => {
                       Send us a message
                     </h3>
                     <p className="text-sm text-[#94A3B8] mt-1">
-                      Fill out the form below and we'll get back to you as soon as possible.
+                      Fill out the form below and we&rsquo;ll get back to you as soon as possible.
                     </p>
                   </div>
 
