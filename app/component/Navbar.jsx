@@ -19,11 +19,11 @@ const Navbar = () => {
   }, [])
 
   const navLinks = [
-    { name: 'Services', href: '#services' },
+    { name: 'Services', href: 'services' },
 
-    { name: 'Why Worbix', href: '#Why' },
-    { name: 'Testimonials', href: '#Testimonials' },
-    { name: 'Contact', href: '#Contact' },
+    { name: 'Why Worbix', href: 'Why' },
+    { name: 'Testimonials', href: 'Testimonials' },
+    { name: 'Contact', href: 'Contact' },
   ]
 
   return (
